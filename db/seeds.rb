@@ -1,12 +1,5 @@
 print "Seeding standard categories... "
 
-Category.create([
-  { name: "PC Games" },
-  { name: "XBox Games" },
-  { name: "Playstation Games" },
-  { name: "Board Games" }
-])
-
 pc_games = Category.create(name: "PC Games")
 xbox_games = Category.create(name: "XBox Games")
 playstation_games = Category.create(name: "Playstation Games")
